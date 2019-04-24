@@ -1,0 +1,33 @@
+{
+  "name": "typescript-course",
+  "version": "1.0.0",
+  "description": "yeet hawt",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc -p .",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quest1onmark/typescript-course.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Jonas Raphael Schultheiss",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/quest1onmark/typescript-course/issues"
+  },
+  "homepage": "https://github.com/quest1onmark/typescript-course#readme",
+  "devDependencies": {
+    "gts": "^0.9.0",
+    "typescript": "~3.1.0"
+  }
+}
