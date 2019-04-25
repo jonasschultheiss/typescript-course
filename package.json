@@ -11,7 +11,8 @@
     "fix": "gts fix",
     "prepare": "npm run compile",
     "pretest": "npm run compile",
-    "posttest": "npm run check"
+    "posttest": "npm run check",
+    "start": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,10 @@
   "homepage": "https://github.com/quest1onmark/typescript-course#readme",
   "devDependencies": {
     "gts": "^0.9.0",
+    "lite-server": "^2.4.0",
     "typescript": "~3.1.0"
+  },
+  "dependencies": {
+    "@types/node": "^11.13.7"
   }
 }
